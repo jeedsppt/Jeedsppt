@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeed's PPT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <section id="header">
+       <a href="#"><IMG SRC="img/PPT (5).png"width=250 height=100 class="logo" alt=""></a>
+
+
+        <div>
+        
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+     <section id="prodetails" class="section-p1">
+       <div class="single-pro-image">
+        <img src="img/PowerPoint Slide Show  -  French revolution 12_20_2023 2_38_02 PM.png" width="100%" id="MainImg" alt="">
+        
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img src="img/PowerPoint Slide Show  -  French revolution 12_20_2023 2_38_02 PM.png" width="100%" class="small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="img/PowerPoint Slide Show  -  French revolution 12_20_2023 3_20_13 PM.png" width="100%" class="small-img" alt="">
+          </div>
+          <div class="small-img-col">
+            <img src="img/PowerPoint Slide Show  -  French revolution 12_20_2023 3_20_33 PM.png" width="100%" class="small-img" alt="">
+          </div>
+        </div>
+    </div>
+
+    <div></div>
+   
+
+   <div class="single-pro-details">
+    <h6>Premium PowerPoint</h6>
+    <h4>History Timeline PowerPoint</h4>
+    <p><b>$7.99</b></p>
+    <button class="normal">Add To Cart</button>
+    <h4>Product Details</h4>
+    <span>The ultimate presentation tool designed to captivate your audience. This sleek and modern template draws inspiration from the iconic Spotify interface, offering a seamless blend of sophistication and innovation. Immerse your audience in a visually stunning experience with a layout reminiscent of Spotify's user-friendly design. Featuring bold typography, vibrant color schemes, and intuitive navigation elements, this template ensures your content shines with professionalism and style.</span>
+</div>
+ </section>
+
+
+ <script>
+  var MainImg = document.getElementById("MainImg");
+  var smallimg = document.getElementsByClassName("small-img");
+
+  smallimg[0].onclick = function(){
+    MainImg.src =smallimg[0].src;
+  }
+  smallimg[1].onclick = function(){
+    MainImg.src =smallimg[1].src;
+  }
+  smallimg[2].onclick = function(){
+    MainImg.src =smallimg[2].src;
+  }
+  smallimg[3].onclick = function(){
+    MainImg.src =smallimg[3].src;
+  }
+ </script>
+    <script src="script.js"></script>
+</body>
+</html>
+
